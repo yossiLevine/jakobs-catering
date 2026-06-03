@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Heebo, Assistant } from 'next/font/google'
 import './globals.css'
+import './styles.css'
 import { SITE } from '@/lib/constants'
 import FloatingWhatsApp from '@/components/ui/FloatingWhatsApp'
 import ScrollProgress from '@/components/ui/ScrollProgress'
