@@ -24,7 +24,6 @@ export const metadata: Metadata = {
     default: `${SITE.name} | קייטרינג כשר בוטיק לאירועים`,
     template: `%s | ${SITE.name}`,
   },
-  metadataBase: new URL('https://jakobs-catering.vercel.app'),
   description: SITE.description,
   keywords: [
     'קייטרינג כשר',
