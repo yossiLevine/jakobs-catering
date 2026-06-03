@@ -24,26 +24,10 @@ export default function HeroSection() {
 
   return (
     <section id="hero" ref={containerRef} className="relative h-[100svh] min-h-[600px] flex items-center overflow-hidden">
-      {/* Background video */}
+      {/* Background */}
       <motion.div className="absolute inset-0 z-0 overflow-hidden" style={{ y: bgY }}>
-        {/* Video background */}
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{
-            filter: 'brightness(0.4)',
-          }}
-        >
-          <source src="/hero-video.mp4" type="video/mp4" />
-          {/* Fallback gradient if video doesn't load */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0d1520] via-[#1A2340] to-[#1c1510]" />
-        </video>
-
-        {/* Fallback gradient overlay (shows if video fails) */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0d1520] via-[#1A2340] to-[#1c1510] opacity-0" />
+        {/* Gradient background (video disabled for now) */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0d1520] via-[#1A2340] to-[#1c1510]" />
 
         {/* Decorative pattern overlay */}
         <div
